@@ -16,7 +16,7 @@ int main(){
 		v.erase(v.begin(), v.begin() + 1);
 		v.push_back(temp);
 	}
-	for(int i = 0; i < v_size; i++){
+	for(auto i = 0; i < v_size; i++){
 		std::cout << v[i] << " ";
 	}
 
