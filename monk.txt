@@ -1,0 +1,30 @@
+Seko sınıfının önünde durmaktadır. Sınıfta N tane öğrenci bulunmaktadır. i’nci öğrencinin Ai adet şekeri vardır, ayrıca sınıfa M tane öğrenci daha gelecektir. Sınıfa giren bir öğrenci hemen aynı şeker sayısına sahip olan öğrencinin yanına oturmak istiyor. Her öğrenci için, eğer böyle bir öğrenci bulunursa, Seko “EVET” diyerek bağırıyor, aksi halde “HAYIR” diyerek bağırıyor.
+
+Başlangıçta 3 ve 2 adet şekeri olan öğrenciler sınıftadır. 9 tane şekeri olan bir öğrenci sınıfa girer ve sınıfta 9 tane şekeri olan öğrenci yoktur. Bu yüzden “HAYIR”.
+
+11 tane şekeri olan öğrenci sınıfa girer ve sınıfta 11 tane şekeri olan öğrenci de yoktur. Bu yüzden “HAYIR”.
+
+2 tane şekeri olan öğrenci sınıfa girdiğinde sınıfta 2 tane şekeri olan öğrenciyi bulabilir. Bu yüzden “EVET”.
+
+Input Format
+
+başlangıştaki öğrenci sayısı için n, sonradan gelen öğrenci sayısı için m değişkenleri girilecek. Daha sonra toplam öğrenci sayısı kadar değer girilecek (yani n+m tane)
+
+Mesela
+
+2 3 ->2 sınıfta daha önceden bulunan öğrenci sayısı, 3 yeni gelen öğrenci sayısı
+3 2 9 9 2 -> 3 ve 2 daha önceden olan öğrencilerin, kalanlar yeni gelen öğrencilerin şeker sayılarıdır.
+Constraints
+
+1 <= N,M <= 10^5
+
+0 <= Ai <= 10^12
+
+Output Format
+
+çıktı olarak da
+
+NO
+YES
+YES
+yazar

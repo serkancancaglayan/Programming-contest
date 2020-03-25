@@ -1,0 +1,30 @@
+Arrayi sola kaydirma islemi, verilen arraydeki tum elemanlari 1 birim sola kaydirir.
+Asagidaki ornekte  [1, 2, 3, 4] arrayinde 2 adet sola kaydirma yapilmistir:
+	[1, 2, 3, 4] --> [2, 3, 4, 1] --> [3, 4, 1, 2]
+
+Sizden verilen n elemanli arrayde, m adet sola kaydirma islemi yapmaniz ve arrayin son halini ekrana bastirmaniz istenmektedir.
+
+Contains:
+	1 <= n <= 10^5
+	1 <= m <= n
+	1 <= ai <= 10^5
+
+Input Formati:
+	Ilk sira sirasiyla n ve m sayilarini icerir.
+	Ikinci sira n elemanli arrayin elemanlarini icerir.
+
+Output Formati:
+	Arrayin son halini aralarinda birer bosluk olacak sekilde ekrana bastirin.
+
+
+Ornek Input:
+	5 3
+	1 2 3 4 5
+
+Ornek Output:
+	4 5 1 2 3
+
+Aciklama:
+	5 elemanli [1, 2, 3, 4, 5] arrayinde 3 adet sola kaydirma islemi:
+		[1, 2, 3, 4, 5] --> [2, 3, 4, 5, 1] --> [3, 4, 5, 1, 2] --> [4, 5, 1, 2, 3]
+
