@@ -1,0 +1,34 @@
+
+şu tanıma uyan bir modifiyeli fibonacci fonksiyonu tanımlayacağız:
+  	kullanıcının verdiği ti ve ti+1 i E (1,sonsuz) iken şu kuralı sağlayacak :
+		tn+2 = tn + (t(n+1))^2
+		
+örneğin t1=0 ve t2=1,
+	t3 = 0+1^2 = 1
+	t4 = 1+1^2 = 2
+	t5 = 1+2^2 = 5
+bize verilecek integer t1,t2 ve n ile n ' inci terimi bulacağız
+
+t1: integer
+t2: integer
+n: integer
+
+input formatı:
+bir boşlukla ayrılacak şekilde t1,t2 ve n'i girin
+
+kurallar:
+	0 <= t1,t2 <= 2
+	3 <= n <= 20
+
+output formatı:
+	modifiyeli fibonacci de tn'inci terimi yazdıracak
+
+örnek input:
+0 1 5
+
+örnek output:
+5
+
+açıklama
+ilk iki terim bize t1 ve t2 yi verdi 0 ve 1 bu da terimlerin {0,1,1,2,5,27,...} olmasını sağladı bizden 5. terimi istediği için 5'inci terimi dönderdik
+
